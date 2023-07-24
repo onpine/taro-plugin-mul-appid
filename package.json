@@ -1,0 +1,37 @@
+{
+  "name": "taro-plugin-mul-appid",
+  "version": "1.0.0",
+  "description": "Taro微信小程序根据环境设置appid",
+  "keywords": [
+    "Taro",
+    "Plugin"
+  ],
+  "author": "onpine",
+  "homepage": "",
+  "license": "MIT",
+  "main": "index.js",
+  "typings": "types/index.d.ts",
+  "files": [
+    "dist",
+    "index.js",
+    "types"
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w"
+  },
+  "bugs": {
+    "url": "https://github.com/onpine/taro-plugin-mul-appid"
+  },
+  "dependencies": {
+    "@tarojs/service": "^3.6.4",
+    "typescript": "^5.1.6"
+  },
+  "devDependencies": {
+    "@types/node": "^18.13.0"
+  }
+}
